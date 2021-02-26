@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StereoVideoMaterial
+  m_Shader: {fileID: 4800000, guid: 9bb9cc04087014640800c3bd6b560cd0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex_Left:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.625, y: 0.9375}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex_Right:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.625, y: 0.9375}
+        m_Offset: {x: 0, y: 0}
+    - _WebCamDepth:
+        m_Texture: {fileID: 8400000, guid: 89ddebee2411449479bd814ad4b8c5ca, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WebCam_Other_Depth:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 1}
+    - _WebCam_Other_Image:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    - _WebCam_Pref_Depth:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 1}
+    - _WebCam_Pref_Image:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistanceThresholdCameraSwitch: 0.01
+    - _HighlightThresholdMax: 1
+    - _ImageHeight: 0.119375
+    - _ImageWidth: 0.11625
+    - _ImageYOffset: 0.119375
+    - _NotVisibleThreshold: 0.1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _NotGoodButBetterWisibleFromPrefCamColor: {r: 0.5030426, g: 1, b: 0.4852941,
+        a: 1}
+    - _NotVisibleColor: {r: 1, g: 0, b: 0, a: 1}
+    - _VisibleFromOtherCamColor: {r: 1, g: 0.50980395, b: 0.49411765, a: 1}

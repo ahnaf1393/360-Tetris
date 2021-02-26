@@ -4,3 +4,4 @@
 
 The objective of this project is to collect the three degree of translational and three degree of rotational movement data from the controller. We decided to collect this data by creating 360-Tetris game as it provides an immersive experience as well as requires sufficient amount of controller movement.  
 
+Further details of the project along with information about all the other group members of the project can be found in the following address: https://wiki.tum.de/display/infar/%5B19SS+-+MP%5D+360-Tetris
